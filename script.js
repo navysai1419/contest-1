@@ -22,7 +22,7 @@ function addData() {
 
 // 3. Remove Admins:
 function removeAdmin() {
-  newArray= newArray.filter(item => item.profession.toLowerCase() !== 'admin');
+  data= data.filter(item => item.profession.toLowerCase() !== 'admin');
 }
 
 // 4. Concatenate Array:
